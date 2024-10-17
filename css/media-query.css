@@ -1,0 +1,106 @@
+/*******  global start *******/
+@media (max-width: 1024px) {
+	html {
+		font-size: 45%;
+	}
+
+	.container {
+		max-width: 900px;
+	}
+}
+
+@media (max-width: 768px) {
+	html {
+		font-size: 40%;
+	}
+
+	.container {
+		max-width: 660px;
+		padding: 2rem;
+	}
+}
+
+@media (max-width: 440px) {
+	html {
+		font-size: 32%;
+	}
+
+	.container {
+		max-width: 360px;
+	}
+}
+
+/*******  global end *******/
+
+/*******  navbar start *******/
+@media (max-width: 768px) {
+	body > nav .navbar {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	body > nav .navbar li:not(:first-child):not(:last-child) {
+		display: none;
+	}
+
+	.menu_icon {
+		display: block;
+	}
+}
+
+/*******  navbar end *******/
+
+/*******  header start *******/
+
+@media (max-width: 768px) {
+	header.container {
+		padding-bottom: 6rem;
+	}
+}
+
+@media (max-width: 440px) {
+	header.container {
+		flex-direction: column;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	header .image {
+		margin: 0 14rem;
+	}
+}
+
+/*******  header end *******/
+
+/*******  Fonctionnalités start *******/
+@media (max-width: 440px) {
+}
+/*******  Fonctionnalités end *******/
+
+/*******  caractéristiques start *******/
+@media (max-width: 440px) {
+	.caractéristiques .ctn {
+		width: initial;
+	}
+
+	.caractéristiques .description {
+		font-size: 2.4rem;
+	}
+}
+/*******  caractéristiques end *******/
+
+/*******  footer start *******/
+@media (max-width: 440px) {
+	footer .navbar {
+		padding: 2rem;
+	}
+
+	footer .navbar_logo {
+		font-size: 2.4rem;
+	}
+
+	footer .navbar_item {
+		font-size: 1.6rem;
+	}
+}
+/*******  footer end *******/
